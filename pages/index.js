@@ -12,6 +12,8 @@ import {
   NFTCard,
   Collection,
   FollowerTab,
+  AudioLive,
+  Slider,
 } from "../components/componentsindex.js";
 // we are not importing Navabr and Footer folder in indexedDB.js because we them in every page
 const Home = () => {
@@ -21,12 +23,20 @@ const Home = () => {
       <Service />
       <BigNFTSlider />
       <Title
+        heading="Digital Audio NFTs"
+        paragraph="Discover the most outstanding NFTs in all topics of life."
+      />
+      <AudioLive />
+      
+      <Slider/>
+      
+      <Title
         heading="Filter By Collection"
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
-      <FollowerTab/>
-      
-      <Collection/>
+      <FollowerTab />
+
+      <Collection />
 
       <Title
         heading="Featured NFTs"
@@ -34,7 +44,7 @@ const Home = () => {
       />
       <Filter />
 
-      <NFTCard/>
+      <NFTCard />
 
       <Title
         heading="Browse by category"

@@ -94,7 +94,7 @@
   "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001409.tgz"
   "version" "1.0.30001409"
 
-"framer-motion@^7.2.1":
+"framer-motion@^7.3.6":
   "integrity" "sha512-en8mLpDv6IcieZo54acHg56HSLpOSryRLZtMOd1Sj1s7hBbUTWnJsv68CWaHI2ysPKcbH/olGfAhRh4yrJn5tw=="
   "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-7.3.6.tgz"
   "version" "7.3.6"
